@@ -76,3 +76,7 @@ Desktop.ini
 *.pid
 *.sock
 *.log
+
+# ---- archivos de datos ----
+
+df_revision_valores_faltantes.csv
