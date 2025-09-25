@@ -1,2 +1,86 @@
 *.zip
 *.json
+# ---- Archivos y carpetas de Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# ---- Entornos virtuales ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.conda
+*.env
+
+# ---- Archivos de configuración local ----
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+*.vscode/
+
+# ---- Dependencias y builds ----
+build/
+dist/
+.eggs/
+pip-wheel-metadata/
+*.egg-info/
+*.whl
+
+# ---- Archivos de Jupyter ----
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ---- IPython ----
+profile_default/
+ipython_config.py
+
+# ---- Archivos de notebooks convertidos ----
+*.nbconvert.ipynb
+
+# ---- Configuración de Pytest y coverage ----
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+
+# ---- Archivos de JupyterLab ----
+.jupyter/
+.lab/
+
+# ---- Configuración de sistema operativo ----
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ---- Archivos temporales ----
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ---- Configuración de Docker/containers (si aplica) ----
+*.pid
+*.sock
+*.log
+
+# ---- archivos de datos ----
+
+df_revision_valores_faltantes.csv
+df_light.csv
+df_light.csv
+df_light.csv
+df_light.csv
