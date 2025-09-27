@@ -16,7 +16,10 @@ Este proyecto es el resultado del segundo evento evaluativo del curso de Anális
 ├── EDA/
 │   ├── Exploracion_base_1.ipynb
 │   ├── Exploracion_base_2.ipynb
-│   ├── fase_2_EDA_medicamentos.ipynb
+│   ├── fase_2_valores faltantes.ipynb
+|   ├── fase_2_deteccion_valores_atipicos.ipynb
+|   ├── fase_2_analisis_univariado.ipynb
+|   ├── fase_2_analisis_multivariado.ipynb
 │   ├── fase_3_preprocesamiento_y_reduccion.ipynb
 │   ├── medicamentos.json
 │   └── df_light.parquet
@@ -29,7 +32,10 @@ Este proyecto es el resultado del segundo evento evaluativo del curso de Anális
 |---------|-------------|
 | `Exploracion_base_1.ipynb` | Exploración del dataset de estratos socioeconómicos de Medellín |
 | `Exploracion_base_2.ipynb` | Exploración del dataset de clasificación de imágenes de Intel |
-| `fase_2_EDA_medicamentos.ipynb` | Análisis Exploratorio de Datos del dataset de medicamentos |
+| `fase_2_valores faltantes.ipynb` | Análisis y tratamiento del dataset para identificar valores faltantes y limpiar la data |
+| `fase_2_deteccion_valores_atipicos.ipynb` | Detección de valores atípicos |
+| `fase_2_analisis_univariado.ipynb` | Análisis univariado del dataset |
+| `fase_2_analisis_multivariado.ipynb` | Análisis multivariado y de reglas de asociación para obtener posibles hipótesis del comportamiento de los datos|
 | `fase_3_preprocesamiento_y_reduccion.ipynb` | Preprocesamiento y reducción de dimensionalidad |
 | `medicamentos.json` | Dataset principal utilizado en las fases 2 y 3 |
 | `df_light.parquet` | Versión procesada y optimizada del dataset de medicamentos |
@@ -111,7 +117,10 @@ pip install -r requirements.txt
    - `Exploracion_base_2.ipynb`
 
 2. **EDA Principal**:
-   - `fase_2_EDA_medicamentos.ipynb`
+   - fase_2_valores faltantes.ipynb
+   - fase_2_deteccion_valores_atipicos.ipynb
+   -  fase_2_analisis_univariado.ipynb
+   -    fase_2_analisis_multivariado.ipynb
 
 3. **Preprocesamiento**:
    - `fase_3_preprocesamiento_y_reduccion.ipynb`
@@ -141,5 +150,6 @@ Este proyecto fue desarrollado como parte del curso de Análisis de Datos. Las c
 Este proyecto es de uso académico y educativo.
 
 ---
+
 
 *Desarrollado con ❤️ para el aprendizaje de Análisis de Datos*
